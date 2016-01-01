@@ -10,9 +10,12 @@
 		37ECD1171C36729100E893A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ECD1161C36729100E893A6 /* main.m */; };
 		37ECD11A1C36729100E893A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ECD1191C36729100E893A6 /* AppDelegate.m */; };
 		37ECD11D1C36729100E893A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ECD11C1C36729100E893A6 /* ViewController.m */; };
-		37ECD1201C36729100E893A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ECD11E1C36729100E893A6 /* Main.storyboard */; };
 		37ECD1221C36729100E893A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37ECD1211C36729100E893A6 /* Assets.xcassets */; };
 		37ECD1251C36729100E893A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ECD1231C36729100E893A6 /* LaunchScreen.storyboard */; };
+		37ECD12E1C3672B800E893A6 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ECD12C1C3672B800E893A6 /* Contacts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		37ECD1311C36745C00E893A6 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ECD1301C36745C00E893A6 /* ContactsUI.framework */; };
+		37ECD1331C3677FE00E893A6 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37ECD1321C3677FE00E893A6 /* 1.png */; };
+		37ECD1351C3682F900E893A6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ECD1341C3682F900E893A6 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +25,13 @@
 		37ECD1191C36729100E893A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		37ECD11B1C36729100E893A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		37ECD11C1C36729100E893A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		37ECD11F1C36729100E893A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37ECD1211C36729100E893A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37ECD1241C36729100E893A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37ECD1261C36729100E893A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37ECD12C1C3672B800E893A6 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		37ECD1301C36745C00E893A6 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		37ECD1321C3677FE00E893A6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		37ECD1341C3682F900E893A6 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37ECD1311C36745C00E893A6 /* ContactsUI.framework in Frameworks */,
+				37ECD12E1C3672B800E893A6 /* Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,8 @@
 		37ECD1091C36729100E893A6 = {
 			isa = PBXGroup;
 			children = (
+				37ECD1301C36745C00E893A6 /* ContactsUI.framework */,
+				37ECD12C1C3672B800E893A6 /* Contacts.framework */,
 				37ECD1141C36729100E893A6 /* AddressBook_iOS9.0 */,
 				37ECD1131C36729100E893A6 /* Products */,
 			);
@@ -58,11 +68,12 @@
 		37ECD1141C36729100E893A6 /* AddressBook_iOS9.0 */ = {
 			isa = PBXGroup;
 			children = (
+				37ECD1321C3677FE00E893A6 /* 1.png */,
 				37ECD1181C36729100E893A6 /* AppDelegate.h */,
 				37ECD1191C36729100E893A6 /* AppDelegate.m */,
 				37ECD11B1C36729100E893A6 /* ViewController.h */,
 				37ECD11C1C36729100E893A6 /* ViewController.m */,
-				37ECD11E1C36729100E893A6 /* Main.storyboard */,
+				37ECD1341C3682F900E893A6 /* MainStoryboard.storyboard */,
 				37ECD1211C36729100E893A6 /* Assets.xcassets */,
 				37ECD1231C36729100E893A6 /* LaunchScreen.storyboard */,
 				37ECD1261C36729100E893A6 /* Info.plist */,
@@ -138,8 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37ECD1251C36729100E893A6 /* LaunchScreen.storyboard in Resources */,
+				37ECD1331C3677FE00E893A6 /* 1.png in Resources */,
+				37ECD1351C3682F900E893A6 /* MainStoryboard.storyboard in Resources */,
 				37ECD1221C36729100E893A6 /* Assets.xcassets in Resources */,
-				37ECD1201C36729100E893A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		37ECD11E1C36729100E893A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37ECD11F1C36729100E893A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37ECD1231C36729100E893A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -214,7 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -252,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -265,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddressBook_iOS9.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AddressBook-iOS9-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddressBook_iOS9.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AddressBook-iOS9-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +307,7 @@
 				37ECD12B1C36729100E893A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
